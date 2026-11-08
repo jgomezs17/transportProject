@@ -17,4 +17,4 @@ class ConductorNoHabilitadoError(Exception):
 class DocumentosVencidosError(Exception):
     # Se lanza cuando el SOAT o la revisión técnico-mecánica del vehículo están vencidos
     def __init__(self, placa, documento):
-        super().__init__(f"El vehículo {placa} tiene vencido el documento: {documento
+        super().__init__(f"El vehículo {placa} tiene vencido el documento: {documento}.")
